@@ -2,8 +2,6 @@ import { degToRad, factorial } from "./util.js";
 
 export class Calculator {
     private expression: string = "";
-    private isDegree: boolean = true;
-    private isSecond: boolean = false;
 
     constructor(private inputEl: HTMLElement, private outputEl: HTMLElement, private historyObj: any) {
         

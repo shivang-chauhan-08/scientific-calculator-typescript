@@ -12,8 +12,6 @@ export class Calculator {
         this.outputEl = outputEl;
         this.historyObj = historyObj;
         this.expression = "";
-        this.isDegree = true;
-        this.isSecond = false;
     }
     append(value) {
         this.expression += value;

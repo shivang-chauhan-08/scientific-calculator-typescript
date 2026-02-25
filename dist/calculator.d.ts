@@ -4,8 +4,6 @@ export declare class Calculator {
     private outputEl;
     private historyObj;
     private expression;
-    private isDegree;
-    private isSecond;
     constructor(inputEl: HTMLElement, outputEl: HTMLElement, historyObj: any);
     append(value: string): void;
     clear(): void;
