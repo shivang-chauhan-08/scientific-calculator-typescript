@@ -1,0 +1,45 @@
+export declare class Calculator {
+    #private;
+    private inputEl;
+    private outputEl;
+    private historyObj;
+    private expression;
+    private isDegree;
+    private isSecond;
+    constructor(inputEl: HTMLElement, outputEl: HTMLElement, historyObj: any);
+    append(value: string): void;
+    clear(): void;
+    backspace(): void;
+    evaluate(): void;
+    add(a: number, b: number): number;
+    sub(a: number, b: number): number;
+    mul(a: number, b: number): number;
+    div(a: number, b: number): number | string;
+    sin(): void;
+    cos(): void;
+    tan(): void;
+    sec(): void;
+    csc(): void;
+    cot(): void;
+    sqrt(): void;
+    log(): void;
+    ln(): void;
+    fact(): void;
+    clearEntry(): void;
+    inverse(): void;
+    square(): void;
+    toggleSign(): void;
+    pow(): void;
+    tenPower(): void;
+    exp(): void;
+    abs(): void;
+    floor(): void;
+    ceil(): void;
+    rand(): void;
+    dms(): void;
+    deg(): void;
+    mod(): void;
+    modX(): void;
+    twoPower(): void;
+}
+//# sourceMappingURL=calculator.d.ts.map
